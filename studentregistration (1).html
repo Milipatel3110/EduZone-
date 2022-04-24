@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <style>
+            body {
+
+        
+    background-image: url("download.jpeg");
+  }
+  div{
+    margin: 2em 5em 3em 5em;
+  
+    padding: 2em 6em 2em 6em;
+    background: rgb(2,0,36);
+  background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(125,129,150,0.9757503221014968) 96%, rgba(222,199,45,1) 98%, rgba(222,199,45,1) 98%, rgba(142,49,242,0.5859143339953169) 98%);
+    color: #ffff;
+    font-family: cursive;
+    border-radius: 1.25rem;
+  }
+  #container_1{
+    text-align:center;
+  }
+  #container_2{
+   display: block;
+  
+    
+  }
+  .form{
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  #submit{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(2,0,36);
+    color: inherit;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  textarea{
+    width: 100%;
+  }
+</style>
+</head>
+  
+<div id="container_1">
+  
+    <h1 id="title">
+ Sign Up
+  </h1><!--title-->
+  <p id="description">
+    Enter the required data in the boxes.
+  </p><!--description--->
+    
+  </div><!---container_1--->
+  <div id="container_2">
+    
+    <form id="student-detail">
+      <label id="name-label">UserName</label>
+        <input type="text" id="Username" name="Username" class="form" required placeholder="Enter Your Username"><br><!--name--->
+      <label id="email-label">School</label>
+        <input type="email" id="email" name="email" class="form" required placeholder="Enter Your School Name:"><br><!---email-->
+        <label id="Address">Address</label>
+        <input type="text" id="Address" name="Address" class="form" required placeholder="Insert YourAddress"><br><!---email-->
+      <label id="phone Number">Conatct Info:</label>
+        <input type="number" id="number" name="number" class="form" placeholder="Enter Your Phone No:" ><br><!---number-->
+      <label id="Education">Education:</label><br>
+      <select id="dropdown" name="role" required>
+        <option disabled selected value>
+          
+        </option>
+        
+        <option value="IMA">
+           School
+        </option>
+        <option value="II">
+          Graduate
+        </option>
+        <option value="IGE">
+          Post Graduate
+        </option>
+      </select><!--dropdown---><br>
+      <label id="name-label">Grade:</label>
+        <input type="text" id="Username" name="Username" class="form" required placeholder="Enter Your Grade or your current year in graduation/post-graduation:"><br><!--name--->
+      
+      
+      
+      <label id="password">Password:</label>
+        <input type="text" id="Username" name="Username" class="form" required placeholder="Enter Your Password:"><br><!--name--->
+        <label id="password"> Confirm Password:</label>
+        <input type="text" id="Username" name="Username" class="form" required placeholder="Confirm Your Password:"><br><!--name--->
+        <input type="submit" id="submit" name="submit" value="Submit">
+    </form><!---survey-form--->
+  </div><!--container_2--->
+  </html>
+  
